@@ -13,3 +13,20 @@
 ![image](https://github.com/user-attachments/assets/55e47e80-b93b-4dc6-bb09-cd1fd24f7a6b)
 
 https://irvifa.medium.com/dicom-and-nifti-f22cb411d378
+
+
+- NIFTI : 파일 하나로 되어있음. 헤더가 적음. 파일 Path 단순.
+- DICOM : 파일 여러가지로 되어있음. 헤더가 많음. 파일이 여러개로 저장되어 파일 Path가 복잡.
+
+Nifti 1 : 8bit
+
+Nifti 2 : 64 bit
+
+## 시각화
+
+- GUI :
+- CLI : Pydicom ( DICOM ), Nibabel ( Nifti ), Pathology (Openslide)
+
+## Whole Slide Imaging (WSI)
+
+병리 영상 (Pathology image)의 경우 아직 PACS에 완전한 연결 시도하지 못했음.
