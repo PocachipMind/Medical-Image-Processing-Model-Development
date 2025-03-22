@@ -27,8 +27,12 @@ https://arxiv.org/pdf/2201.01426v1
 https://github.com/urmagicsmine/cspr
 
 
-## NIH에서 학습 데이터 수집
+## 학습 데이터 수집
 
 ### https://portal.gdc.cancer.gov/
 
 NIH에서 학습 데이터 수집
+
+### https://medmnist.com/
+
+medmnist 데이터
