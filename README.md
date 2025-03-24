@@ -36,3 +36,7 @@ NIH에서 학습 데이터 수집
 ### https://medmnist.com/
 
 medmnist 데이터
+
+## dicom sampler
+
+https://github.com/Kri-Ol/DICOM-Resampler
