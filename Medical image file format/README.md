@@ -34,7 +34,7 @@ Nifti 2 : 64 bit
 
 ## Whole Slide Imaging (WSI)
 
-![image](https://github.com/user-attachments/assets/f03d6ce4-b2ac-476b-992c-9b3dd8033c77)
+<img src="https://github.com/user-attachments/assets/f03d6ce4-b2ac-476b-992c-9b3dd8033c77" width="60%" height="60%"/>
 
 병리 영상 (Pathology image)의 경우 아직 PACS에 완전한 연결 시도하지 못했음.
 
