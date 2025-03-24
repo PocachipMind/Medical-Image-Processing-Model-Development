@@ -13,11 +13,11 @@
 
 ## Neuroimaging Informatics Technology Initiative (NIFTI)
 
-![image](https://github.com/user-attachments/assets/55e47e80-b93b-4dc6-bb09-cd1fd24f7a6b)
+<img src="https://github.com/user-attachments/assets/55e47e80-b93b-4dc6-bb09-cd1fd24f7a6b" width="60%" height="60%"/>
 
 https://irvifa.medium.com/dicom-and-nifti-f22cb411d378
 
-![image](https://github.com/user-attachments/assets/b5d2dbf0-fcce-47af-837e-bb55cbc1c145)
+<img src="https://github.com/user-attachments/assets/b5d2dbf0-fcce-47af-837e-bb55cbc1c145" width="60%" height="60%"/>
 
 
 - NIFTI : 파일 하나로 되어있음. 헤더가 적음. 파일 Path 단순.
