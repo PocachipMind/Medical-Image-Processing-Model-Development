@@ -32,5 +32,16 @@
 - CT와 reconstruction하는 과정 비슷
 
 - (공명주파수)RF function을 준 후 전자들이 원 위치로 돌아가는데 걸리는 시간에 따라 다양한 image영상 획득
-  - T1 : z방향으로 다시 돌아갈때 발생한 영상
-  - T1 : 
+  - T1 : z방향으로 다시 돌아갈때 발생한 영상 ( 지방조직을 밝게 )
+  - T2 : T1보다 영상이 짧으며 회복시간이 짧음 ( 높은 수분이 있는 영역을 밝게 )
+ 
+- K-space : 주파수 방향으로 여러 이미지 만들어 냄
+
+### Pathology 
+
+- Digital Pathology
+  - Whole slide image는 모든 정보 포함
+    - 여러 해상도 제공, stiched 되어 기가 픽셀의 이미지를 가지고 있음.
+  - image resolution이 커서 전체 분석은 시간 소요가 많이 되어짐
+    - 일반적으로 작은 patch로 잘라서 분석.
+  - Patch간의 좌표 보정이 필요.
