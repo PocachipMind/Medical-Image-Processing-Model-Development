@@ -1,5 +1,6 @@
 # Medical image acquisition
 
+## Image 종류
 ### X-ray
 
 - 대부분 2차원 이미지.
@@ -45,3 +46,43 @@
   - image resolution이 커서 전체 분석은 시간 소요가 많이 되어짐
     - 일반적으로 작은 patch로 잘라서 분석.
   - Patch간의 좌표 보정이 필요.
+
+- microns per pixel (mpp) : pixel마다 실제 distance를 의미
+  - ex ) 0.25 mm 인 경우 :  1 micro meter를 저장하기 위해서 4~5 pixel이 필요
+- Multi-scale or scale 통일 전처리 필요.
+
+- WSI 만드는 과정, 많은 artifact 발생.
+  - 조직 손상, 염색 부족, scanning 장비의 문제 등
+
+- Radiology 영상과 다르게 RGB color 표현. 다양할 수 있음.
+  - 해결 방법 적용
+    - Gray scale
+    - Blind Color deconvolution
+    - Color normalize
+    - Augmentation
+   
+- Zoom in 된 patch와 Zoom out된 patch들 간 전처리 필요. 연관성 있는 patch 생성 중요.
+- Color augmentation을 통해 분포를 넓혀 사용하는 방식도 사용
+
+## Medical image preprocessing
+
+### Medical image data
+- 장비간 얻어지는 Pixel간 distance 있음.
+- 3D의 경우 slice distance도 고려하여 맞춰줘야함.
+- Image size를 맞추기 위해 voxel spacing을 활용.
+
+### Voxel spacing
+- 물리적인 위치이기에 실제 위치와 다름
+- phys_coords = origin + voxel_spacing * voxel_coord
+   
+### Look Up Table ( LUT ) : 다이콤 이미지에서 많이 사용
+- Modaility LUT
+  - Device에서 나온 pixel의 값 변환, Load할 때 값 사용.
+- VOI LUT
+  - 원하는 조직 영역 보기위해 적용
+- Presentation LUT
+  - Device마다 영상을 Gray scale의 표현값을 설정
+ 
+![image](https://github.com/user-attachments/assets/ba5b52ba-0b14-4b36-bce2-08a995e02e9e)
+
+- Histogram equalization
