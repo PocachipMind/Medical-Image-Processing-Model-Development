@@ -8,7 +8,7 @@
 - Dicom Server Element (DIMSE) : IOD를 가지고 할 수 있는 행위 (저장, 찾기, 전송, 만들기, 가져오기 )
 - 최종적으로 Service-Object Pair(SOP) = IOD + DIMSE class를 가지고 동작되어짐.
 
-  ![image](https://github.com/user-attachments/assets/1cf38325-862c-4dac-9205-69a65434a776)
+<img src="https://github.com/user-attachments/assets/1cf38325-862c-4dac-9205-69a65434a776" width="60%" height="60%"/>
 
 
 ## Neuroimaging Informatics Technology Initiative (NIFTI)
