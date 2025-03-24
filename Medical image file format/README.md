@@ -34,6 +34,8 @@ Nifti 2 : 64 bit
 
 ## Whole Slide Imaging (WSI)
 
+![image](https://github.com/user-attachments/assets/f03d6ce4-b2ac-476b-992c-9b3dd8033c77)
+
 병리 영상 (Pathology image)의 경우 아직 PACS에 완전한 연결 시도하지 못했음.
 
 ( PACS : 메디컬 디바이스부터 이미지 전처리 이후 사람한테 까지 보이는 경로의 시스템을 의미. 병리영상은 Radiology 보다 디지털 영상화가 늦었다는 단점이 있음. 고화질 영상기술 필요 -> 큰용량 필요.)
