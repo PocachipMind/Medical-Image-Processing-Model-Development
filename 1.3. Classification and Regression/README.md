@@ -107,4 +107,27 @@ Classification의 경우 Class를 나누지만 Regression의 경우 연속적인
   - <img src="https://github.com/user-attachments/assets/758e12e0-087e-4ce2-8fd9-384e3bac002e" width="30%" height="30%"/>
   - <img src="https://github.com/user-attachments/assets/e622e500-9a83-49bc-961a-48f28bf37507" width="30%" height="30%"/>
 
+## Evaluation
 
+https://89douner.tistory.com/253
+
+예측이 맞냐 틀리냐 : T, F
+어떻게 예측 했느냐 : P, N
+
+- True Positive(TP) : 실제로 positive인데, 모델의 예측값도 Positive일 때
+- False Positive(FP) : 실제로 Negative인데, 모델의 예측값은 Positive일 때
+- False Negative(FN) : 실제로 Positive인데, 모델의 예측값은 Negative일 때
+- True Negative(TN) : 실제로 Negative인데, 모델의 예측값도 Negative일 때
+
+
+- Accuracy
+  - 모델이 바르게 예측을 한 결과
+![image](https://github.com/user-attachments/assets/01c43b01-933a-4273-93b7-f35df062a201)
+
+- Recall (재현도)
+  - 실제값이 positive인 것 중에 model 이 positive라고 한 비율
+![image](https://github.com/user-attachments/assets/95436b0f-4346-4170-9a56-d066705837dd)
+
+- Precision (정밀도)
+  - 모델이 positive라고 예측한 것 중에 실제값이 positive일 경우
+![image](https://github.com/user-attachments/assets/d643cda7-8a30-422c-8fb5-09abb3675dcb)
