@@ -1,4 +1,4 @@
-# Segmentation
+![image](https://github.com/user-attachments/assets/9cc44d49-a1ac-488b-8d58-d361eb3294b7)# Segmentation
 
 - Medical Image Segmentation
   - 병변의 Region of interest(ROI)를 분할하기 위한 방법으로 많이 사용
@@ -48,3 +48,8 @@
   - Edge Enhancement 
   - Boundary 영역의 증가시켜 Noise제거
   - Hole filling : image의 내부의 영역을 동일한 mask로 채우는 방법
+
+![image](https://github.com/user-attachments/assets/cfe2a66d-b65c-4eba-9532-bb41b66b7ba0)
+
+![image](https://github.com/user-attachments/assets/02ccd0a5-4851-4eff-9db4-237636854e71)
+
