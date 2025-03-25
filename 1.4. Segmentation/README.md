@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9cc44d49-a1ac-488b-8d58-d361eb3294b7)# Segmentation
+# Segmentation
 
 - Medical Image Segmentation
   - 병변의 Region of interest(ROI)를 분할하기 위한 방법으로 많이 사용
