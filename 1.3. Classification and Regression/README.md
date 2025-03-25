@@ -122,12 +122,15 @@ https://89douner.tistory.com/253
 
 - Accuracy
   - 모델이 바르게 예측을 한 결과
+
 ![image](https://github.com/user-attachments/assets/01c43b01-933a-4273-93b7-f35df062a201)
 
 - Recall (재현도)
   - 실제값이 positive인 것 중에 model 이 positive라고 한 비율
+
 ![image](https://github.com/user-attachments/assets/95436b0f-4346-4170-9a56-d066705837dd)
 
 - Precision (정밀도)
   - 모델이 positive라고 예측한 것 중에 실제값이 positive일 경우
+
 ![image](https://github.com/user-attachments/assets/d643cda7-8a30-422c-8fb5-09abb3675dcb)
