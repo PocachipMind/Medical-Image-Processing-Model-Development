@@ -74,3 +74,34 @@
   - 물체의 center를 예측하여 anchor box 튜닝이 필요없어짐. (Anchor-free)
   - 작은 object에 대해서는 centerness를 이용하여 처리. 
   - 더 많은 양의 positive sample사용가능
+
+- End-to-End Object Detection with Transformers (DETR)
+  - 기존의 방법들을 한번에 풀도록 정의
+    - Pre-defined anchorbox -> model -> predict -> post-processing
+  - bipartite matching을 사용
+    - Matching cost가 최소인 permutation 추출 (GIOU 사용)
+  - Faster R-CNN과 동급의 정확도 및 런타임 속도를 보였다.
+    - 속도의 개선에 관한 연구
+<img src="https://github.com/user-attachments/assets/a5cb7076-d9ea-40ac-9f8d-3c29086471ff" width="30%" height="30%"/>
+
+### Post-processing
+- Non-maximum suppression
+  - Detection에서는 수많은 output이 나오기 때문에 후처리가 필요하다.
+  - Anchor box 나 Anchor-free나 target하는 object가 중첩되어 나옴
+  - IOU > threshold중 probability가 높은 영역만 보존
+  - 후처리의 성능향상 위해 IOU의 개선연구도 진행됨.
+
+![image](https://github.com/user-attachments/assets/7452d415-f76d-4ad7-b326-ea07bd69e59d)
+
+- Sliding window
+  - 작은 객체 탐지를 위해서 patch단위로 잘라서 Inference도 이루어진다.
+ 
+### Loss
+
+- Focal loss
+  - One-stage detector의 정확도의 개선이 되어지기 위해 제안됨
+  - Anchor box나 Anchor-free의 경우에서 Negative의 비율이 많음. 
+  - 이는 학습의 영향에 저하.
+  - Negative부분에 대해서는 가중치를 많이 부여.
+ 
+![image](https://github.com/user-attachments/assets/1058b610-99fb-4a44-a148-89f902c001cc)
