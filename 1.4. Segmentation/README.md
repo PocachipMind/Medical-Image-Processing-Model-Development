@@ -66,3 +66,27 @@
 
 ![image](https://github.com/user-attachments/assets/ddf0bb77-3e8b-4f40-8e51-6fff52ad325a)
 
+
+- Jaccard/Intersection over Union (IoU) Loss
+  - A,B의 영역에 얼마나 많이 겹치는지 판단하는 지표
+ 
+![image](https://github.com/user-attachments/assets/bc328653-3219-48c5-b6c2-132ba06be119)
+
+- Dice vs Jaccard 
+  - 두 loss의 경우 영역의 유사도로를 보기 때문에 비슷하게 동작함.
+  - Dice의 경우 0~1로 볼수 있음으로 직관적임.
+ 
+## Evaluation
+
+- Pixel wise or image level evaluation등 다양한 방법이 있음.
+- Annotator마다 성능의 차이가 크게 남 & 정확한 평가 guideline이 없음.
+
+- Dice & Jaccard index 
+  - 전체 영역 중 Intersection된 영역에 대한 비율을 보는 방법
+  - 따라서 1에 값이 가까워질수록 좋아지고 멀어질수록 좋아지지 않는다.
+
+![image](https://github.com/user-attachments/assets/57a88b1c-f696-44ff-bf73-a33d5698e476)
+
+![image](https://github.com/user-attachments/assets/4cbdee93-f97c-43da-a6aa-0ec669404ea1)
+
+
