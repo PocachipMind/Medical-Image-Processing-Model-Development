@@ -85,8 +85,13 @@
   - 전체 영역 중 Intersection된 영역에 대한 비율을 보는 방법
   - 따라서 1에 값이 가까워질수록 좋아지고 멀어질수록 좋아지지 않는다.
 
-![image](https://github.com/user-attachments/assets/57a88b1c-f696-44ff-bf73-a33d5698e476)
+<img src="https://github.com/user-attachments/assets/57a88b1c-f696-44ff-bf73-a33d5698e476" width="50%" height="50%"/>
 
-![image](https://github.com/user-attachments/assets/4cbdee93-f97c-43da-a6aa-0ec669404ea1)
+<img src="https://github.com/user-attachments/assets/4cbdee93-f97c-43da-a6aa-0ec669404ea1" width="50%" height="50%"/>
 
 
+- Mean-Intersection Over Union (IOU) 
+  - 모든 class마다 IOU를 구해서 평균을 낸 방식
+  - 0,1처럼 binary를 하여 평가도 할수 있는 반면 Soft intersection으로 하여 평가도 가능함
+
+<img src="https://github.com/user-attachments/assets/f3e2d65c-37a2-4857-b3ed-023b724f85f7" width="50%" height="50%"/>
