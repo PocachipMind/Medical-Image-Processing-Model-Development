@@ -30,3 +30,21 @@
 
 ![image](https://github.com/user-attachments/assets/4975699a-86c0-4913-bda5-0cfaf5ed0743)
 
+- Hard Aug
+  - Cutout : 영상의 특정 부위를 masking
+  - Mixup : 두 영상을 합하여 만듬.
+  - Cutmix : 특정 부위를 다른 영상으로 대체
+
+![image](https://github.com/user-attachments/assets/3d66a705-bf34-4c8b-93c4-4be9825037e3)
+
+
+### Trick
+- Test time augmentation (TTA)
+  - Inference할때 이미지를 augmentation한 후 앙상블한 결과
+
+![image](https://github.com/user-attachments/assets/6abf59f9-7cc3-46c7-9874-ba05591941d0)
+ 
+- Post Processing
+  - Edge Enhancement 
+  - Boundary 영역의 증가시켜 Noise제거
+  - Hole filling : image의 내부의 영역을 동일한 mask로 채우는 방법
