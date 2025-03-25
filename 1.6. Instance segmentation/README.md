@@ -47,7 +47,28 @@
 - Post-processing
   - Mask post-processing
 
+### Augmentation
+
 - Copy and pastes augmentation
-• Object의 mask가 있는 이미지를 다른 이미지에 붙이는 방법
-• Jittering의 방법과 Scaling과 방법과 함께 적용
-• Self-training 기술로도 유용함
+  - Object의 mask가 있는 이미지를 다른 이미지에 붙이는 방법
+  - Jittering의 방법과 Scaling과 방법과 함께 적용
+  - Self-training 기술로도 유용함
+
+### Preprocessing
+
+- Contour mask
+  - Image의 Contour(경계면)을 학습
+  - Instance mask와 Contour mask 사용
+    - Instance마다 분할에 도움을 줄 수 있도록 학습.
+   
+![image](https://github.com/user-attachments/assets/30f742f1-d4d8-449a-82d8-e126fa0a84c6)
+
+![image](https://github.com/user-attachments/assets/b920edb1-c3a9-4504-befb-3f701da058c8)
+
+- Gradient Map
+  - Horizontal & vertical distance map을 만들어 활용
+  - Nuclear pixel, gradient prediction, classification을 동시에 학습.
+    - Regression과 classification을 동시에 loss로 적용
+    - Post processing일때 gradient를 활용하여 instance 분할
+   
+![image](https://github.com/user-attachments/assets/030b9e82-a5d0-4940-8e89-ad869cf6baf0)
