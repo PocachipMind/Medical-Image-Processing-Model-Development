@@ -1,5 +1,6 @@
 # Classification and Regression
 
+## Classification
 - image classification은 2가지 type으로 분류
   - Category label ( Classification )
   - Continuous value ( Regression )
@@ -53,3 +54,5 @@
 - Binary cross entropy : 특정 질병의 유무를 판단하기 위한 Loss
 - Cross entropy : 다중 Class일떄 사용하며 label과 prediction의 확률 분포 차이를 계산
 - Kullback-Leibler divergence loss : 서로 다른 두 분포의 차이를 측정함
+
+## Regression
