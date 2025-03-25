@@ -40,3 +40,24 @@
   - 적은 batch로 학습이 가능
 
 ![image](https://github.com/user-attachments/assets/9ed68780-13e9-41e8-a953-2824145cfdb5)
+
+### Network - Two Stage
+
+- Faster-RCNN
+  - Anchor box approach
+  - R-CNN -> Fast R-CNN -> Faster R-CNN 순서로 발전
+1. Region proposal network 에서 해당영역을 bounding box영역을 추출
+2. 추출된 영역 (Region)에서 원본 layer로 pooling시켜 classification
+
+- Why use Region proposal ?
+  - 기존에서는 sliding window를 통해서 모든 영역에 대해서 detection후보를 뽑음.
+  - Region을 network로 학습 시킴으로 효율성 증가.
+- 기존의 방법보다 속도 개선 하지만 느림
+
+### Network (Neck)
+• Feature Pyramid Network (FPN)
+• Computation & memory의 부담
+• single-scale 이미지를 CNN에 입력하여 다양한 scale feature map활용
+• Loss의 사용 증가로 Computational cost커짐
+
+### Network - One Stage
