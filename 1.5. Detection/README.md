@@ -30,3 +30,13 @@
   - 하지만 Inference 속도는 느려짐
  
 ![image](https://github.com/user-attachments/assets/f37d8bad-00fd-430c-b3bb-a0ae40374ab9)
+
+
+- Basic augmentation
+  - Flip, Rotate, Cutout 등
+  - Bounding box와 함께 적용함.
+- Mosaic augmentation 
+  - 4장의 각기 다른 이미지의 Patch와 조합하여 만듬.
+  - 적은 batch로 학습이 가능
+
+![image](https://github.com/user-attachments/assets/9ed68780-13e9-41e8-a953-2824145cfdb5)
