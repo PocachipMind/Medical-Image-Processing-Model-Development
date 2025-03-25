@@ -1,6 +1,10 @@
 # Medical-Image-Processing-Model-Development
 Medical 관련 AI 학습한 내용 및 코드를 기재하여, 실무에 빠르게 적용할 수 있는 Note를 제작하는데 목표를 둡니다.
 
+해당 Git은 패스트캠퍼스의 강의를 기반으로 제작되었습니다.
+
+https://fastcampus.co.kr/data_online_medicalai
+
 # 실무에 도움이 될만한 메모 노트
 
 ## 딥러닝 모델 찾기 사이트
