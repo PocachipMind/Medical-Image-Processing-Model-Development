@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/dd9237d5-65c1-41ea-a7e9-488d9079b865)# Classification and Regression
+# Classification and Regression
 
 ## Classification
 - image classification은 2가지 type으로 분류
@@ -23,8 +23,8 @@
   - Limited data → Fine tuning
   - Large data → Crop
   - Demographic score → Multi label ( Regression )
- 
-![image](https://github.com/user-attachments/assets/4410fa34-7298-4faf-8f54-95e710e52228)
+
+<img src="https://github.com/user-attachments/assets/4410fa34-7298-4faf-8f54-95e710e52228" width="60%" height="60%"/>
 
 - 이미지 분류
   - 전체 이미지 입력
@@ -60,7 +60,7 @@
 같은 질병이라도 심각도에 따라 다름
 
 Classification의 경우 Class를 나누지만 Regression의 경우 연속적인 값을 가짐
-![image](https://github.com/user-attachments/assets/4b3c4fad-a0e4-4ff5-adf2-288b28e831df)
+<img src="https://github.com/user-attachments/assets/4b3c4fad-a0e4-4ff5-adf2-288b28e831df" width="60%" height="60%"/>
 
 - 과거 image regression method
   - Decision Tree Regression 
@@ -78,23 +78,24 @@ Classification의 경우 Class를 나누지만 Regression의 경우 연속적인
   - Augmentation ( SMOTE )
 
 - ex Diabetic retinopathy (DR) : 망막의 혈관을 손상시키는 당뇨병의 합병증, Lung CT
-![image](https://github.com/user-attachments/assets/9a500fb2-a276-4be4-8797-14181fcad6c3)
-![image](https://github.com/user-attachments/assets/ea1b851d-5c94-4a54-9566-271ffe512993)
+
+<img src="https://github.com/user-attachments/assets/9a500fb2-a276-4be4-8797-14181fcad6c3" width="60%" height="60%"/>
+<img src="https://github.com/user-attachments/assets/ea1b851d-5c94-4a54-9566-271ffe512993" width="60%" height="60%"/>
 
  
 - L1loss
   - 실제값과 예측값의 차이값에 오차합을 최소화 하기 위해사용
   - 미분이 안되는 지점이 존재 (0인 지점)
   - 오차값에 대한 Robustness하다는 점이 있음.
-  - ![image](https://github.com/user-attachments/assets/d8c7ef5e-2563-42b9-84dd-39d58cfb9842)
+  - <img src="https://github.com/user-attachments/assets/d8c7ef5e-2563-42b9-84dd-39d58cfb9842" width="60%" height="60%"/>
 
 - L2loss
   - 실제값과 예측값의 제곱의 차이
   - 안정적인 미분 가능 하지만 이상치에 민감하게 반응
   - Stability하다는 장점이 있음
-  - ![image](https://github.com/user-attachments/assets/0f7dcf11-acd1-40a6-97f3-21883291d7de)
+  - <img src="https://github.com/user-attachments/assets/0f7dcf11-acd1-40a6-97f3-21883291d7de" width="60%" height="60%"/>
 
 - Huber loss
   - 모든 지점에서 미분이 가능
   - Outlier에 robust
-  - ![image](https://github.com/user-attachments/assets/758e12e0-087e-4ce2-8fd9-384e3bac002e)
+  - <img src="https://github.com/user-attachments/assets/758e12e0-087e-4ce2-8fd9-384e3bac002e" width="60%" height="60%"/>
