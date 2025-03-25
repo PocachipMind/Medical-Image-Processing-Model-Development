@@ -42,7 +42,8 @@
 - Test time augmentation (TTA)
   - Inference할때 이미지를 augmentation한 후 앙상블한 결과
 
-![image](https://github.com/user-attachments/assets/6abf59f9-7cc3-46c7-9874-ba05591941d0)
+<img src="https://github.com/user-attachments/assets/6abf59f9-7cc3-46c7-9874-ba05591941d0" width="50%" height="50%"/>
+
  
 - Post Processing
   - Edge Enhancement 
@@ -52,3 +53,16 @@
 <img src="https://github.com/user-attachments/assets/cfe2a66d-b65c-4eba-9532-bb41b66b7ba0" width="30%" height="30%"/>
 
 <img src="https://github.com/user-attachments/assets/02ccd0a5-4851-4eff-9db4-237636854e71" width="30%" height="30%"/>
+
+
+### Loss
+
+- Cross entropy
+
+- Dice coefficient loss
+  - Intersection of Union (IOU)처럼 A,B의 영역에 대해서 얼마나 겹쳐지는 지
+
+<img src="https://github.com/user-attachments/assets/a56aba44-c5bf-40ac-ad45-7002476f9a78" width="50%" height="50%"/>
+
+![image](https://github.com/user-attachments/assets/ddf0bb77-3e8b-4f40-8e51-6fff52ad325a)
+
