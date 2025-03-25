@@ -49,7 +49,6 @@
   - Boundary 영역의 증가시켜 Noise제거
   - Hole filling : image의 내부의 영역을 동일한 mask로 채우는 방법
 
-![image](https://github.com/user-attachments/assets/cfe2a66d-b65c-4eba-9532-bb41b66b7ba0)
+<img src="https://github.com/user-attachments/assets/cfe2a66d-b65c-4eba-9532-bb41b66b7ba0" width="30%" height="30%"/>
 
-![image](https://github.com/user-attachments/assets/02ccd0a5-4851-4eff-9db4-237636854e71)
-
+<img src="https://github.com/user-attachments/assets/02ccd0a5-4851-4eff-9db4-237636854e71" width="30%" height="30%"/>
