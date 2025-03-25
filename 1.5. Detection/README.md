@@ -122,3 +122,10 @@
   - Probability의 값을 변경하면 Precision, Recall이 변경이 됨
 
 ![image](https://github.com/user-attachments/assets/01fd799c-ccf9-4d9a-bf55-5513e7f8b2d6)
+
+- Precision-Recall Curve
+  - Probability를 기준으로 threshold를 점진적으로 주었을때 나오는 그래프
+  - 한 지점은 F1 score(빨간색) 로 표현이 가능하다.
+  - 해당영역(주황색) 의 넓이는 Average Precision임.
+
+![image](https://github.com/user-attachments/assets/903de06e-00f8-4426-ae31-cb8c0f4022d7)
