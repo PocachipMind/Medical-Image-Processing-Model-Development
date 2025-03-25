@@ -56,3 +56,29 @@
 - Kullback-Leibler divergence loss : 서로 다른 두 분포의 차이를 측정함
 
 ## Regression
+
+같은 질병이라도 심각도에 따라 다름
+
+Classification의 경우 Class를 나누지만 Regression의 경우 연속적인 값을 가짐
+![image](https://github.com/user-attachments/assets/4b3c4fad-a0e4-4ff5-adf2-288b28e831df)
+
+- 과거 image regression method
+  - Decision Tree Regression 
+    - Dataset을 작은 단위로 나누어서
+  - Random Forest Regression 
+    - 여러개의 Decision tree를 만드는 방법
+    - 앙상블할떄 Bagging, Boosting방법을 사용
+  - Gradient Boosting
+    - decision Tree를 조합해서 사용하는 Ensemble 기법
+    - XGBoost : Regression, Classification 사용 가능
+   
+- Medical image regression trick
+  - K fold cross validation
+  - imbalanced data
+  - Augmentation ( SMOTE )
+
+- ex Diabetic retinopathy (DR) : 망막의 혈관을 손상시키는 당뇨병의 합병증, Lung CT
+![image](https://github.com/user-attachments/assets/9a500fb2-a276-4be4-8797-14181fcad6c3)
+![image](https://github.com/user-attachments/assets/ea1b851d-5c94-4a54-9566-271ffe512993)
+
+- 
