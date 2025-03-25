@@ -104,5 +104,5 @@
   - 이는 학습의 영향에 저하.
   - Negative부분에 대해서는 가중치를 많이 부여.
 
-<img src="https://github.com/user-attachments/assets/1058b610-99fb-4a44-a148-89f902c001cc" width="30%" height="30%"/>
+<img src="https://github.com/user-attachments/assets/1058b610-99fb-4a44-a148-89f902c001cc" width="50%" height="50%"/>
 
