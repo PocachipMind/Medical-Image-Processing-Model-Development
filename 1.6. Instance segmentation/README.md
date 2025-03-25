@@ -60,10 +60,10 @@
   - Image의 Contour(경계면)을 학습
   - Instance mask와 Contour mask 사용
     - Instance마다 분할에 도움을 줄 수 있도록 학습.
-   
-![image](https://github.com/user-attachments/assets/30f742f1-d4d8-449a-82d8-e126fa0a84c6)
 
-![image](https://github.com/user-attachments/assets/b920edb1-c3a9-4504-befb-3f701da058c8)
+<img src="https://github.com/user-attachments/assets/30f742f1-d4d8-449a-82d8-e126fa0a84c6" width="50%" height="50%"/>
+   
+<img src="https://github.com/user-attachments/assets/b920edb1-c3a9-4504-befb-3f701da058c8" width="30%" height="30%"/>
 
 - Gradient Map
   - Horizontal & vertical distance map을 만들어 활용
@@ -72,3 +72,39 @@
     - Post processing일때 gradient를 활용하여 instance 분할
    
 ![image](https://github.com/user-attachments/assets/030b9e82-a5d0-4940-8e89-ad869cf6baf0)
+
+### Network (Two-stage)
+- Mask-RCNN
+  - 3D network상에서도 two stage로 문제를 품
+    - Edge map을 활용하여 input image와 결합.
+    - Region proposal network(RPN)를 사용하여 중복된 부분을 제거
+    - RPN간의 유사도를 이용하여 후보를 남기기도 한다.
+   
+### Network (one-stage)
+- YOLACT++
+  - One-stage로 한번에 segmentation 과 detection의 문제도 푸는 방안도 있음.
+  - 속도의 장점을 활용하여 Surgical에서 사용 되어짐
+  - Multi scale, Attention을 사용하여 더 많은 정보 활용.
+ 
+### Post-processing
+
+- Watershed
+  - Binary image를 경계선에 있는 영역을 나누기 위해서 사용
+  - 골짜기에 물을 점진적으로 부어 segmentation을 하는 개념
+  - Noise가 많을 경우 위험.
+ 
+## Evaluation
+
+- Precision-Recall
+  - 각 예측이 나온 segmentation 는 probability를 가지고 있음.
+  - Probability의 값을 변경하면 Precision, Recall이 변경이 됨
+ 
+![image](https://github.com/user-attachments/assets/5ea310e3-97a1-41d6-b285-495248a3abeb)
+
+### Medical Image detection
+- IOU Mean Average precision
+  - Probability를 기준으로 threshold를 점진적으로 주었을 때 나오는 그래프
+  - 한 지점은 F1 score(빨간색) 로 표현이 가능하다.
+  - 해당영역(주황색) 의 넓이는 Average Precision(AP).
+  - 모든 Class마다 평균을 구하면 MAP
+![image](https://github.com/user-attachments/assets/62b1a025-145c-42ad-94fc-f565df6dac67)
