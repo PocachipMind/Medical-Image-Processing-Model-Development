@@ -106,3 +106,19 @@
 
 <img src="https://github.com/user-attachments/assets/1058b610-99fb-4a44-a148-89f902c001cc" width="50%" height="50%"/>
 
+## Evaluation
+
+- Intersection of Union (IOU)
+  - 예측된 box와 ground truth의 box가 일치하는지에 따른 값
+  - Ex) 겹치는 영역이 80% 이상일때 TP
+  - Ex) 겹치는 영역이 20% 미만일때 FP
+  - GT의 영역에 predict이 없는 경우 FN
+  - 이를 통해서 confusion matrix를 만들수 있음.
+
+![image](https://github.com/user-attachments/assets/6af7ddff-de98-4177-b4d9-2aaba9b2203c)
+
+- Precision-Recall
+  - 각 예측이 나온 bounding box는 probability를 가지고 있음.
+  - Probability의 값을 변경하면 Precision, Recall이 변경이 됨
+
+![image](https://github.com/user-attachments/assets/01fd799c-ccf9-4d9a-bf55-5513e7f8b2d6)
