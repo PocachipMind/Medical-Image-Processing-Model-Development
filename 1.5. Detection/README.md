@@ -103,5 +103,6 @@
   - Anchor box나 Anchor-free의 경우에서 Negative의 비율이 많음. 
   - 이는 학습의 영향에 저하.
   - Negative부분에 대해서는 가중치를 많이 부여.
- 
-![image](https://github.com/user-attachments/assets/1058b610-99fb-4a44-a148-89f902c001cc)
+
+<img src="https://github.com/user-attachments/assets/1058b610-99fb-4a44-a148-89f902c001cc" width="30%" height="30%"/>
+
