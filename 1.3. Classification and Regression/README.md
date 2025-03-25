@@ -52,8 +52,12 @@
   - Other model
  
 - Binary cross entropy : 특정 질병의 유무를 판단하기 위한 Loss
+<img src="https://github.com/user-attachments/assets/a22be743-4fe9-4f61-bbb6-85bb0223111e" width="30%" height="30%"/>
 - Cross entropy : 다중 Class일떄 사용하며 label과 prediction의 확률 분포 차이를 계산
+<img src="https://github.com/user-attachments/assets/a22be743-4fe9-4f61-bbb6-85bb0223111e" width="30%" height="30%"/>
 - Kullback-Leibler divergence loss : 서로 다른 두 분포의 차이를 측정함
+<img src="https://github.com/user-attachments/assets/d57bb704-1406-4071-b033-ef5b19040449" width="30%" height="30%"/>
+
 
 ## Regression
 
