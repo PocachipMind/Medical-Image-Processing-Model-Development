@@ -55,9 +55,22 @@
 - 기존의 방법보다 속도 개선 하지만 느림
 
 ### Network (Neck)
-• Feature Pyramid Network (FPN)
-• Computation & memory의 부담
-• single-scale 이미지를 CNN에 입력하여 다양한 scale feature map활용
-• Loss의 사용 증가로 Computational cost커짐
+- Feature Pyramid Network (FPN)
+  - Computation & memory의 부담
+  - single-scale 이미지를 CNN에 입력하여 다양한 scale feature map활용
+  - Loss의 사용 증가로 Computational cost커짐
 
 ### Network - One Stage
+
+- You Only Look Once (YOLO)
+  - Faster R-CNN보다 성능은 낮지만 속도의 개선이 뛰어남. -> 6배 빠르게 발전
+  - Cell로 나누어 anchor box로 사용 (cell이 중심 기준으로 width, height 예측)
+  - Classification과 localization을 동시에 진행함
+    - Confidence가 높으면 box를 굵게 + cell단위로 classification 진행
+    - X,Y좌표 width, height, confidence동시에 학습.
+
+- Fully Convolutional One-Stage Object Detection (FCOS)
+  - 이전의 방법의 경우 Anchor box size나 scale를 custom하게 설정해주어야함. 
+  - 물체의 center를 예측하여 anchor box 튜닝이 필요없어짐. (Anchor-free)
+  - 작은 object에 대해서는 centerness를 이용하여 처리. 
+  - 더 많은 양의 positive sample사용가능
