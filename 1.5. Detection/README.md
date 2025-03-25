@@ -129,3 +129,34 @@
   - 해당영역(주황색) 의 넓이는 Average Precision임.
 
 ![image](https://github.com/user-attachments/assets/903de06e-00f8-4426-ae31-cb8c0f4022d7)
+
+- Mean Average Precision Score
+  - 해당 Class마다 도출되어진 다른 Class들의 평균을 내면 됨
+  - Object의 size보다 Map의 다양한 크기로 비교가 가능
+ 
+![image](https://github.com/user-attachments/assets/915c5c3a-a14c-48ae-b408-35a6e21138d4)
+
+- ROC curve
+  - Sensitivity와 specificity로 그려지는 곡선
+  - Probability를 점진적으로 변화하면서 값을 표시
+  - 곡선에서 한개 point에 FPR, TPR의 정보를 포함하고 있음.
+ 
+![image](https://github.com/user-attachments/assets/b42128bc-6ebd-4cf7-b3c5-38134f03f667)
+
+
+- 전체적인 이미지이외에 한 환자당 성능을 비교할 수 있을까?
+  - Detection의 경우 Case & Image의 경우로 나누어서 분석이 가능. 
+  - Case의 경우 환자마자의 분석이 가능
+    - Ex) 병변이나 결절이 검출 되었는지? 
+  - Medical image에서 FN을 최대한 많이 줄여주는 작업이 필요함
+ 
+- Free-Response ROC Curve (FROC)
+  - ROC Curve를 대안하기 위해서 나온 변수
+  - Probability를 줄여가며 평가
+  - 병변 위치에 따른 평가 가능
+  - X축의 경우 이미지당 FP의 갯수를 의미
+  - Y축의 경우 Sensitivity로 놓진갯수의 비율을 말함
+
+![image](https://github.com/user-attachments/assets/0a545473-6fa6-47b9-8388-a2c34aa3a66f)
+
+![image](https://github.com/user-attachments/assets/6c7296fd-8ee9-412c-92fc-7a4f3fd71ce2)
