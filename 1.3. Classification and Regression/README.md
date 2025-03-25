@@ -101,7 +101,10 @@ Classification의 경우 Class를 나누지만 Regression의 경우 연속적인
   - Stability하다는 장점이 있음
   - <img src="https://github.com/user-attachments/assets/0f7dcf11-acd1-40a6-97f3-21883291d7de" width="30%" height="30%"/>
 
-- Huber loss
+- Huber loss, Smooth L1 loss
   - 모든 지점에서 미분이 가능
   - Outlier에 robust
   - <img src="https://github.com/user-attachments/assets/758e12e0-087e-4ce2-8fd9-384e3bac002e" width="30%" height="30%"/>
+  - <img src="https://github.com/user-attachments/assets/e622e500-9a83-49bc-961a-48f28bf37507" width="30%" height="30%"/>
+
+
