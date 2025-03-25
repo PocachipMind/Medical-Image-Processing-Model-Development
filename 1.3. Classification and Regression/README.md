@@ -86,7 +86,7 @@ Classification의 경우 Class를 나누지만 Regression의 경우 연속적인
 - ex Diabetic retinopathy (DR) : 망막의 혈관을 손상시키는 당뇨병의 합병증, Lung CT
 
 <img src="https://github.com/user-attachments/assets/9a500fb2-a276-4be4-8797-14181fcad6c3" width="60%" height="60%"/>
-<img src="https://github.com/user-attachments/assets/ea1b851d-5c94-4a54-9566-271ffe512993" width="60%" height="60%"/>
+<img src="https://github.com/user-attachments/assets/ea1b851d-5c94-4a54-9566-271ffe512993" width="20%" height="20%"/>
 
  
 - L1loss
