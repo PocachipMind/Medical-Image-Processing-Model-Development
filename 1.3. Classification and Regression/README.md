@@ -87,15 +87,15 @@ Classification의 경우 Class를 나누지만 Regression의 경우 연속적인
   - 실제값과 예측값의 차이값에 오차합을 최소화 하기 위해사용
   - 미분이 안되는 지점이 존재 (0인 지점)
   - 오차값에 대한 Robustness하다는 점이 있음.
-  - <img src="https://github.com/user-attachments/assets/d8c7ef5e-2563-42b9-84dd-39d58cfb9842" width="60%" height="60%"/>
+  - <img src="https://github.com/user-attachments/assets/d8c7ef5e-2563-42b9-84dd-39d58cfb9842" width="30%" height="30%"/>
 
 - L2loss
   - 실제값과 예측값의 제곱의 차이
   - 안정적인 미분 가능 하지만 이상치에 민감하게 반응
   - Stability하다는 장점이 있음
-  - <img src="https://github.com/user-attachments/assets/0f7dcf11-acd1-40a6-97f3-21883291d7de" width="60%" height="60%"/>
+  - <img src="https://github.com/user-attachments/assets/0f7dcf11-acd1-40a6-97f3-21883291d7de" width="30%" height="30%"/>
 
 - Huber loss
   - 모든 지점에서 미분이 가능
   - Outlier에 robust
-  - <img src="https://github.com/user-attachments/assets/758e12e0-087e-4ce2-8fd9-384e3bac002e" width="60%" height="60%"/>
+  - <img src="https://github.com/user-attachments/assets/758e12e0-087e-4ce2-8fd9-384e3bac002e" width="30%" height="30%"/>
